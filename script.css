@@ -10,6 +10,7 @@
 body {
     line-height: 1.6;
     padding: 20px;
+    font-size: 16px; /* Default font size */
 }
 
 h1 {
@@ -106,12 +107,52 @@ form {
 }
 
 @media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    #search-input {
+        font-size: 16px;
+    }
+
+    #search-button, #show-more {
+        font-size: 16px;
+    }
+
+    .subcontainers a {
+        font-size: 18px;
+    }
+
     .subcontainers {
         width: calc(45% - 20px);
     }
 }
 
 @media screen and (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    #search-input {
+        font-size: 14px;
+    }
+
+    #search-button, #show-more {
+        font-size: 14px;
+    }
+
+    .subcontainers a {
+        font-size: 16px;
+    }
+
     .subcontainers {
         width: 100%;
     }
